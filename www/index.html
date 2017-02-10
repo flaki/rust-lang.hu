@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rust Hungary – Magyar Rust Közösség</title>
+
+<style>
+
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Fira Sans Light'), url("http://rust-lang.org/fonts/FiraSans-Light.woff") format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Fira Sans'), url("http://rust-lang.org/fonts/FiraSans-Regular.woff") format('woff');
+}
+@font-face {
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Fira Sans Medium'), url("http://rust-lang.org/fonts/FiraSans-Medium.woff") format('woff');
+}
+
+
+body {
+	font-family: 'Fira Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: white;
+
+  margin: 0;
+}
+
+main {
+  padding: 2em 1em;
+}
+footer {
+  padding: 1em;
+  background: #999;
+}
+
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+
+  margin: 1em;
+  vertical-align: middle;
+}
+
+footer a:focus, footer a:hover {
+  text-decoration: underline;
+}
+
+footer a>span {
+  font-weight: 300;
+  font-size: 85%;
+  display: block;
+}
+
+.logo {
+  width: 16em;
+  max-width: 100%;
+}
+
+h1 {
+  color: #743;
+
+  font-size: 1.6em;
+  letter-spacing: -.04em;
+  font-variant: small-caps;
+}
+
+.social a {
+  display: inline-block;
+}
+
+.social a>img {
+  width: 2em;
+  height: 2em;
+  margin: 0 .25em;
+}
+
+
+@media only screen and (min-width: 640px) {
+  body {
+    height: 100%;
+    height: 100vh;
+  }
+  main,footer {
+    box-sizing: border-box;
+  }
+
+  main {
+    height: 100%;
+    height: 100vh;
+  }
+  footer {
+    height: 4em;
+    margin-top: -4em;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 0 .5em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  
+  .social a>img {
+    width: 3em;
+    height: 3em;
+    margin: 0 .5em;
+  }
+}
+</style>
+
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<main>
+		<img class="logo" src="/i/rusthungary.jpg" alt="Rust Hungary">
+		<h1>Rust Hungary<br>Magyar Rust Közösség</h1>
+		<div class="social">
+			<a class="twitter"  href="https://twitter.com/rusthungary"><img src="/i/twitter.png" alt="Rust Hungary on Twitter"></a>
+			<a class="facebook" href="https://www.facebook.com/groups/rusthungary/"><img src="/i/facebook.png" alt="Rust Hungary on Facebook"></a>
+		</div>
+	</main>
+	<footer>
+		<a href="http://www.rust-lang.org/">rust-lang.org</a>
+		<a href="https://hacks.mozilla.org/2015/05/diving-into-rust-for-the-first-time/">Mi is a Rust?<span class="lang-en">What is Rust?</span></a>
+		<a href="http://doc.rust-lang.org/stable/">Dokumentáció<span class="lang-en">Rust docs</span></a>
+		<a href="https://play.rust-lang.org/">Webes konzol<span class="lang-en">Rust playpen</span></a>
+	</footer>
+</body>
+
+</html>
