@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mozilla Developer Roadshow-val folytatódik a magyar Rust meetup-sorozat | Rust Hungary</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 1.6em;
+    }
+    a {
+      color: #957351;
+      text-decoration: none;
+    }
+    a:hover, a:active, a:focus {
+      text-decoration: underline;
+      color: #dd7a16;
+    }
+    .center {
+      text-align: center;
+    }
+    .full {
+      width: 100%;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 1.6em;
+      line-height: 1.2em;
+    }
+    main {
+      max-width: 36em;
+      margin: auto;
+      padding-bottom: 20vh;
+    }
+    img {
+      max-width: 100%;
+      width: 24em;
+      margin: 1em auto;
+      display: block;
+    }
+    blockquote {
+      border-left: .2em solid #DDE;
+      padding-left: .3em;
+      margin-left: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 10vh;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+      margin-bottom: 5vh;
+      border-bottom: 2px solid #DDE;
+    }
+    header .logo {
+      font-size: 0;
+      background: url('/i/rusthungary.jpg');
+      background-size: contain;
+      width: 10vh;
+      height: 10vh;
+    }
+
+    header .menu ul {
+      display: flex;
+      list-style-type: none;
+    }
+    header .menu ul li {
+      margin-right: 1em;
+      text-align: center;
+      line-height: 1.1;
+    }
+    header .menu span {
+      display: block;
+    }
+    header .menu span:first-child {
+      font-weight: bold;
+      opacity: .9;
+    }
+    header .menu span:last-child {
+      opacity: .75;
+    }
+    header .menu ul a {
+      text-decoration: none;
+      color: black;
+    }
+    header .menu ul a:hover span,
+    header .menu ul a:active span,
+    header .menu ul a:focus span {
+      opacity: 1;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Rust Hungary</div>
+    <nav class="menu"><ul>
+      <li><a href="/"><span>Főoldal</span><span>Home</span></a></li>
+      <li><a href="https://twitter.com/RustHungary"><span>Hírek</span><span>News</span></a></li>
+    </ul></nav>
+</header>
+
+<main>
+<h1 id="mozilla-developer-roadshow-val-folytat-dik-a-magyar-rust-meetup-sorozat">Mozilla Developer Roadshow-val folytatódik a magyar Rust meetup-sorozat</h1>
+<p>Szeptemberben indult útjára a <a href="https://www.meetup.com/Rust-Hungary-Meetup/">Rust Hungary meetup</a> amely a <a href="http://rust-lang.org">Rust programozási nyelv</a> magyar közösségét hivatott megszólítani. Az első meetup kiválóan sikerült, az előadók és előadások pozitív fogadtatása után máris nyilvánvaló volt, hogy nem kell majd sokat várni a folytatásra.</p>
+<p class="center"><img src="./rust-hungary-first.jpg" alt="Indul az els&#x151; Rust Hungary meetup!">
+<strong><a href="https://twitter.com/RustHungary/status/911587218682150913">Indul az első Rust Hungary meetup!</a></strong></p>
+<p>Ez így is lett, hiszen egy kiadós és pihentető hosszú hétvégét követően jövő héten kedden (Október 24.) máris érkezik a második felvonás a <a href="http://mzl.la/devroadshow">Mozilla Developer Roadshow</a>-val karöltve!</p>
+<p><img class="full" src="./devroadshowhucrop.png" alt="Mozilla Developer Roadshow Budapest"></p>
+<p>A Mozilla Developer Roadshow a Mozilla egész éves eseménysorozata amelynek keretében Mozilla fejlesztők és a nyílt web más támogatói látogatnak el különböző városokba világszerte hogy ott modern webes technológiákról adjanak elő és beszélgessenek a helyi fejlesztőközösség tagjaival.</p>
+<p>Mindez a Budapesti esemény tekintetében sem lesz másként, vendégünk lesz többek között Nicolas Silva aki a Mozilla párizsi központjában a Firefox grafikus alrendszerének fejlesztésén dolgozik és a novemberben érkező Firefox Quantumról fog előadni. Ezen túl a (szintén jövő héten megrendezésre kerülő) <a href="http://jsconfbp.com/">JSConf Budapest</a> webes fejlesztői konferenciáról is érkeznek vendégelőadóink, sőt, visszatér a Szegedi Egyetem csapata is hogy a legújabb kutatásukról számoljanak be.</p>
+<p><img src="./quantum-firefox.png" alt="Firefox Quantum"></p>
+<p>A programról további részleteket <a href="https://www.meetup.com/Rust-Hungary-Meetup/events/244086300/">az esemény meetup oldalán</a> találtok, s jelentkezni szintén itt tudtok, kedvcsinálóként azonban az egyik témánkat itt is kiemelnénk:</p>
+<p>A Szegedi Egyetem csapata az utóbbi hónapokban egy igencsak jövőbe mutató technológián dolgozik, a Servo &quot;WebRender&quot; grafikus megjelenítőmotoron, amely a Firefox Quantum Render modulját fogja adni a jövőben. Nicolas Silva maga is ezen a technológián dolgozik (ő a párizsi kontingens vezető fejlesztője a Mozillánál), és anélkül hogy a részletekbe belemennénk, bátran állíthatjuk hogy a webfejlesztés világát egészen fundamentális módon fogja befolyásolni az a teljesítménynövekedés amellyel a WebRender technológia kecsegtet.</p>
+<p class="center"><img src="./quantum-lin.png" alt="Firefox Quantum">
+<strong><a href="https://hacks.mozilla.org/2017/05/quantum-up-close-what-is-a-browser-engine/">Miből lesz a "böngészőmotor"?</a></strong></p>
+<p>Ha többet szeretnétek megtudni erről (és nem szeretnétek a délutánt <a href="https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/">Lin Clark a WebRenderről szóló, elképesztően részletes írásával</a> tölteni akkor gyertek el kedden a meetupra!</p>
+<p>Azt, hogy nem árulunk zsákbamacskát, azt Jake Archibald, a Google Chrome böngésző(!) egyik vezető evangelistájának tweetjével szeretnénk illusztrálni, aki még 2016-ban csak ennyit nyilatkozott az (akkor még csak kísérleti jelleggel fejlesztett) WebRender-t használó Servo böngészőmotorról:</p>
+<blockquote>
+<p><a href="https://twitter.com/jaffathecake/status/705355715414781953">Wow, Servo is FAST!</a></p>
+</blockquote>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u0hYIRQRiws" frameborder="0" allowfullscreen></iframe>
+</main>
+
+</body>
+
+</html>
