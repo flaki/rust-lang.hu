@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Idén utoljára Novemberben Rust Hungary meetup Budapesten | Rust Hungary</title>
+  <meta name="description" content="November 23.-án újra, 2017-ben utoljára Rust Hungary meetup a Mozilla Community Space-ben" />
+  <meta name="keywords" content="rust, hungary, community, magyarország, közösség, meetup, mozilla" />
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@RustHungary" />
+
+  <meta name="twitter:title" content="Idén utoljára Novemberben Rust Hungary meetup Budapesten" />
+  <meta name="twitter:description" content="November 23.-án újra, 2017-ben utoljára Rust Hungary meetup a Mozilla Community Space-ben" />
+  <meta name="twitter:image:src" content="http://rust-lang.hu/posts/2017-11-22/rusthungary3-share.png" />
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:site_name" content="Rust Hungary" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://rust-lang.hu/posts/2017-10-20/meetup-02-mozilla-dev-roadshow.html" />
+
+  <meta property="og:title" content="Idén utoljára Novemberben Rust Hungary meetup Budapesten" />
+  <meta property="og:description" content="November 23.-án újra, 2017-ben utoljára Rust Hungary meetup a Mozilla Community Space-ben" />
+  <meta property="og:image" content="http://rust-lang.hu/posts/2017-11-22/rusthungary3-share.png" />
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 1.6em;
+    }
+    a {
+      color: #957351;
+      text-decoration: none;
+    }
+    a:hover, a:active, a:focus {
+      text-decoration: underline;
+      color: #dd7a16;
+    }
+    .center {
+      text-align: center;
+    }
+    .full {
+      width: 100%;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 1.6em;
+      line-height: 1.2em;
+    }
+    main {
+      max-width: 36em;
+      margin: auto;
+      padding-bottom: 20vh;
+    }
+    img {
+      max-width: 100%;
+      width: 24em;
+      margin: 1em auto;
+      display: block;
+    }
+    img + strong {
+      display: block;
+      text-align: center;
+    }
+    blockquote {
+      border-left: .2em solid #DDE;
+      padding-left: .3em;
+      margin-left: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 10vh;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+      margin-bottom: 5vh;
+      border-bottom: 2px solid #DDE;
+    }
+    header .logo {
+      font-size: 0;
+      background: url('/i/rusthungary.jpg');
+      background-size: contain;
+      width: 10vh;
+      height: 10vh;
+    }
+
+    header .menu ul {
+      display: flex;
+      list-style-type: none;
+    }
+    header .menu ul li {
+      margin-right: 1em;
+      text-align: center;
+      line-height: 1.1;
+    }
+    header .menu span {
+      display: block;
+    }
+    header .menu span:first-child {
+      font-weight: bold;
+      opacity: .9;
+    }
+    header .menu span:last-child {
+      opacity: .75;
+    }
+    header .menu ul a {
+      text-decoration: none;
+      color: black;
+    }
+    header .menu ul a:hover span,
+    header .menu ul a:active span,
+    header .menu ul a:focus span {
+      opacity: 1;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Rust Hungary</div>
+    <nav class="menu"><ul>
+      <li><a href="/"><span>Főoldal</span><span>Home</span></a></li>
+      <li><a href="https://twitter.com/RustHungary"><span>Hírek</span><span>News</span></a></li>
+      <li><a href="https://www.meetup.com/Rust-Hungary-Meetup/"><span>Meetup</span></a></li>
+    </ul></nav>
+</header>
+
+<main>
+  <a class="languagenote" href="meetup-03-rust-hungary.en.html">For the English version, <em>click here</em>.</a>
+  <h1 id="id-n-utolj-ra-novemberben-rust-hungary-meetup-budapesten">Idén utoljára Novemberben Rust Hungary meetup Budapesten</h1>
+  <p>Három a magyar igazság, szól a mondás: az igazság pedig az hogy bizám máris
+  elérkezett a harmadik Rust Hungary meetup, ahogy arra számíthattatok, kiváló
+  lineuppal és előadásokkal készültünk nektek borongós késő-őszi csütörtök estékre. ;)</p>
+  <p><img src="/posts/2017-11-22/oxidation.png" alt="Firefox Oxidation">
+  <strong><a href="https://www.meetup.com/Rust-Hungary-Meetup/events/244411460/">Rust Hungary #3 - November 23., Csütörtök 18:00</a></strong></p>
+  <p>Első előadónk ezúttal is a Mozillától érkezik, Stockholmból: Valentin Gosu
+  a múlt heti meglehetősen zajos <a href="https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/">Firefox Quantum release</a> kulisszatitkairól
+  valamint a kezdetekről fog mesélni—azaz arról mit is keres a Rust a Firefoxban és az útról ami ahhoz vezetett hogy az első Rust
+  komponensek immáron bekerültek a mindenki által elérhető stabil böngészőverzióba is.</p>
+  <p>Őt követi majd Jan-Erik Rediger aki nem kevésbé izgalmas témával foglalkozik majd,
+  mégpedig a WebAssembly kérdésével. A nyitómeetupunkon már szó esett erről egyszer,
+  Jan-Erikkel most kicsit jobban elmélyedünk a technológia kínálta lehetőségekben.</p>
+  <p>Harmadik előadónk ezúttal is helyi illetőségű, a Rust Hungary meetup-sorozat
+  egyik alapító tagja, Czibik Péter fog arról beszélni hogyan használhatjátok
+  fel akár már ma Rust tudásotokat node.js környezetben, akár éles projekteken is.</p>
+  <p><img src="/posts/2017-11-22/rusthungary2.jpg" alt="Rust Hungary m&#xE1;sodik meetup - Nikita Baksalyar el&#x151;ad&#xE1;sa">
+  <strong><a href="https://twitter.com/RustHungary/status/922892563228610561">Nikita Baksalyar előadása az októberi Rust Hungary meetupról</a></strong></p>
+  <p>Szóval tartsatok velünk ezúttal is, megéri - részletes leírást az előadókról/előadásokról
+  ahogyan eddig is, <a href="https://www.meetup.com/Rust-Hungary-Meetup/events/244411460/">a meetup.com-on találtok</a>
+  és itt tudtok feliratkozni is a meetupra.</p>
+  <p>A Rust Hungary meetup-sorozat a November 23.-i meetup után téli álomba szenderül, legközelebb 2018-ban találkozhattok velünk, de Decemberben is meg akarjátok
+    kapni a havi open-source-adagotokat gyertek el az év utolsó <a href="https://www.meetup.com/opensourcebudapest/">Open Source Budapest meetupjára</a>!</p>
+</main>
+
+</body>
+
+</html>

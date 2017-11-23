@@ -1,0 +1,101 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <style>
+
+
+
+    body {
+      font-family: Open Sans Condensed;
+      font-size: 24px;
+    }
+
+    #share {
+      width: 720px;
+      height: 360px;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 3;
+      display: flex
+    }
+
+    .logo {
+      display: flex;
+      justify-content:  center;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 8em;
+    }
+
+  header {
+    flex: 1;
+    text-align:  center;
+
+    font-size: 2em;
+    font-weight: bold;
+    color: #F64060;
+  }
+    header img {
+      max-height: 1.25em;
+      margin-bottom: -.4em;
+      margin-left: .2em;
+      margin-right: .2em;
+    }
+
+    ol {
+      padding: 0;
+      list-style-type: none;
+    }
+
+  li {
+    padding: .25em;
+    padding-top: .5em;
+  }
+
+  li img {
+    border: 1px solid red;
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 1.5em;
+    margin-right: .25em;
+    margin-top: -.15em;
+  }
+  li strong {
+    font-weight: 900;
+    font-size: 110%;
+    margin-right: .1em;
+  }
+  footer {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F64060;
+    font-style: italic;
+  }</style>
+</head>
+<body>
+<div id="share">
+  <header>Rust Hungary <img src="/assets/meetuplogo.svg"/> #3</header>
+
+  <main>
+    <div class="logo"><img src="/i/rusthungary.png"/></div>
+
+    <ol>
+      <li><img src="/assets/meetup-03/valentin.jpg"  /> <strong>Valentin Gosu</strong> Oxidizing Firefox</li>
+      <li><img src="/assets/meetup-03/janerik.jpg"  /> <strong>Jan-Erik Rediger</strong> Webassembly for the Rust of Us</li>
+      <li><img src="/assets/meetup-03/peteycz.jpg"  /> <strong>Peter Czibik</strong> Using Rust with node.js</li>
+    </ol>
+  </main>
+
+  <footer>Thursday, 2017. 11. 23., 18:00</footer>
+</div>
+</body>
